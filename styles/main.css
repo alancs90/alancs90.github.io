@@ -1,0 +1,42 @@
+body{
+    background-color: #fff6de;
+
+}
+
+header, footer {
+
+    background-color: #DEE7FF;
+height: 100px;
+text-align: center;
+padding: 30px 10px 20px 10px;
+}
+
+}
+
+.border {
+    border: thick solid blue;
+}
+
+#experience {
+    /* border: thick solid skyblue;*/
+}
+
+table {
+                width: 90%;
+
+            }
+            th {
+              background-color: #8F708B;
+                height: 30px;
+            }
+            tfoot td {
+                text-align: center;
+            }
+            tbody tr:nth-child(even) {
+              text-align: center;
+                background-color: #9dc181;
+            }
+            tbody tr:nth-child(odd) {
+              text-align: center;
+                background-color: #DEE7FF;
+            }
