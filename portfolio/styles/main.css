@@ -1,3 +1,8 @@
+/*
+Creator: Alan Carrasco
+Date created: Dec. 6 2019
+Date last modified:
+*/
 body{
     background-color: #fff6de;
 
@@ -20,23 +25,25 @@ padding: 30px 10px 20px 10px;
 #experience {
     /* border: thick solid skyblue;*/
 }
-
-table {
-                width: 90%;
-
-            }
-            th {
-              background-color: #8F708B;
-                height: 30px;
-            }
-            tfoot td {
-                text-align: center;
-            }
-            tbody tr:nth-child(even) {
-              text-align: center;
-                background-color: #9dc181;
-            }
-            tbody tr:nth-child(odd) {
-              text-align: center;
-                background-color: #DEE7FF;
-            }
+nav a {
+  background-color:#5b7d87;
+  color: #fef9ff;
+  padding: 8px;
+  border: thin solid #0d1f2d;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 20px 150px ;
+  width: 100px;
+  float: left;
+}
+nav a:hover {
+  background-color: #fef9ff;
+  color: #5b7d87;
+}
+nav a:active {
+  font-weight:bold;
+}
+nav a:visited {
+  color:#e4c3ad;
+}
