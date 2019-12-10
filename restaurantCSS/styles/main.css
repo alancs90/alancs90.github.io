@@ -7,14 +7,20 @@ body{
     background-color: #fff6de;
 font-family: 'Aclonica';font-size: 22px;
 }
-
+header div{
+border:3px solid black;
+  border-radius:100px; width:500px;
+  margin: auto;
+  padding:10px;
+  background-color: #af1b3f;
+}
 header, footer {
 
   font-family: 'Aclonica';font-size: 22px;
     background-color: #ffa541;
-height: 150px;
+height: 125px;
 text-align: center;
-padding: 30px 10px 20px 10px;
+padding: 30px 0.001px 30px 0.001px;
 }
 
 table {
@@ -40,12 +46,12 @@ table {
 nav a {
   background-color:#5b7d87;
   color: #fef9ff;
-  padding: 8px;
+  padding: 10px;
   border: thin solid #0d1f2d;
   text-decoration: none;
   text-align: center;
   display: block;
-  margin: 20px 20px;
+  margin: 10px 20px;
   width: 200px;
 }
 nav a:hover {
