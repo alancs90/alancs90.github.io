@@ -1,0 +1,66 @@
+/*
+Creator: Alan Carrasco
+Date created: Dec. 6 2019
+Date last modified:
+*/
+body{
+    background-color: #fff6de;
+font-family: 'Aclonica';font-size: 22px;
+}
+
+header, footer {
+
+  font-family: 'Aclonica';font-size: 22px;
+    background-color: #ffa541;
+height: 120px;
+text-align: center;
+padding: 30px 10px 20px 10px;
+}
+
+table {
+                width: 75%;
+
+            }
+            th {
+              background-color: #8F708B;
+                height: 30px;
+            }
+            tfoot td {
+                text-align: center;
+            }
+            tbody tr:nth-child(even) {
+              text-align: center;
+                background-color: #9dc181;
+            }
+            tbody tr:nth-child(odd) {
+              text-align: center;
+                background-color: #DEE7FF;
+            }
+
+nav a {
+  background-color:#5b7d87;
+  color: #fef9ff;
+  padding: 8px;
+  border: thin solid #0d1f2d;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 20px 20px;
+  width: 200px;
+}
+nav a:hover {
+  background-color: #fef9ff;
+  color: #5b7d87;
+}
+nav a:active {
+  font-weight:bold;
+}
+nav a:visited {
+  color:#e4c3ad;
+}
+nav,footer {
+  border-top: thin #5b7d87 dashed;
+  border-bottom: thin #5b7d87 dashed;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}

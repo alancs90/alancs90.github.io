@@ -33,9 +33,8 @@ nav a {
   text-decoration: none;
   text-align: center;
   display: block;
-  margin: 20px 150px ;
+  margin: 20px 20px;
   width: 100px;
-  float: left;
 }
 nav a:hover {
   background-color: #fef9ff;
@@ -46,4 +45,10 @@ nav a:active {
 }
 nav a:visited {
   color:#e4c3ad;
+}
+nav,footer {
+  border-top: thin #5b7d87 solid;
+  border-bottom: thin #5b7d87 solid;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
