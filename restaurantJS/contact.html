@@ -14,7 +14,7 @@
       <title>Contact</title>
         <link href="styles/main.css" rel="stylesheet" type="text/css" />
         <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
-
+<script type="text/JavaScript" src="restaurant.js"></script>
     </head>
 
 
@@ -43,7 +43,42 @@
 
          Send us your feed back
 
-         <form>
+
+         <div class="container">
+
+          <!-- name -->
+          <label for="InputFirstName">First Name</label>
+          <input type="email" class="form-control" id="input-first" placeholder="Enter first name">
+
+          <label for="InputFirstName">Last Name</label>
+          <input type="email" class="form-control" id="input-last" placeholder="Enter last name">
+
+          <!-- email -->
+          <label for="InputEmail1">Email address</label>
+          <input type="email" class="form-control" id="input-email" placeholder="Enter email">
+          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+
+
+          <!-- submit button -->
+               <button id="submit-btn" onclick="validate();" type="submit" class="btn btn-primary">Submit</button>
+
+               <div id="email-Sent">
+                 <br>
+                 <h3>Contact Request Sent! An Email Will Be Sent To <span id="users-Email"></span>. Please Allow 1-2 Business Days For A Reply. </h3>
+               </div>
+             </div>
+
+
+          <!-- select -->
+        
+
+
+
+
+
+
+
+         <!-- <form>
              <br>
              <strong>Name</strong>:
          <input type="text"name="nameInfo"required>
@@ -52,7 +87,7 @@
          <input type="text"name="emailIInfo"required>
          <br>
              <strong>Phone</strong>:
-         <input type="text"name="phonoInfo"required>
+         <input type="text"name="phonoInfo"required> -->
          <br />
              <br />
              <form >
