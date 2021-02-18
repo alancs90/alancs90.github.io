@@ -276,14 +276,17 @@ h1, h2, h3, h4, h5, h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 20px 0;
   overflow: hidden;
 }
 
 .section-bg {
   background: #f5f8fd;
 }
-
+.carousel-bg{
+  background: white;
+  height: 50%;
+}
 .section-title {
   padding-bottom: 30px;
 }
@@ -644,15 +647,15 @@ section {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials .testimonial-item {
-  /* box-sizing: content-box;
-  text-align: center; */
-  /* min-height: 320px; */
+  box-sizing: content-box;
+  text-align: center; 
+  min-height: 50px;
 }
 
 .testimonials .testimonial-item .testimonial-img {
-  /* width: 90px;
-  border-radius: 50%; */
-  /* margin: 0 auto; */
+  width: 90px;
+  border-radius: 50%; 
+  margin: 0 auto;
 }
 
 .testimonials .testimonial-item h3 {
